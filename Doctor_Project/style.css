@@ -7,7 +7,7 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
-/* links */
+/* links
 .nfl a, .mlb a, .nhl a, .pga a {
   text-decoration: none;
   transition: color 0.2s ease-out;
@@ -43,12 +43,12 @@ body {
 
 .pga a:hover {
   color: #c33d17;
-}
+} */
 
 /* wrapper */
 .wrapper {
   width: 100%;
-  max-width: 1000px;
+  max-width: 1700px;
   margin: 20px auto 100px auto;
   padding: 0;
   background: rgba(255, 255, 255, 0.1);
@@ -61,6 +61,8 @@ body {
 .row ul {
   margin: 0;
   padding: 0;
+  display: flex;
+  justify-content: space-between; 
 }
 
 .row ul li {
@@ -71,6 +73,8 @@ body {
   display: inline-block;
   width: 20%;
   box-sizing: border-box;
+  padding: 10px; 
+  flex: 1;
 }
 @media only screen and (max-width: 767px) and (min-width: 480px) {
   .row ul li {
@@ -137,7 +141,7 @@ body {
   }
 }
 
-.nfl {
+/* .nfl {
   border-left: 3px solid #1c616c;
 }
 
@@ -167,7 +171,7 @@ body {
 
 .pga:hover {
   border-left: 3px solid #eb7655;
-}
+} */
 
 /* row one - fadeIn */
 .row-fadeIn-wrapper {
@@ -265,7 +269,7 @@ ul.more-content li {
   display: block;
   height: 50px;
   width: 100%;
-  color: rgba(128, 128, 128, 0.9);
+  color: rgba(255, 255, 255, 0.9);
 }
 @media only screen and (max-width: 767px) {
   ul.more-content li {
@@ -287,18 +291,6 @@ ul.more-content li {
 }
 
 /* keyframe animations */
-@-webkit-keyframes fadeIn {
-  from {
-    background: rgba(255, 255, 255, 0.1);
-    opacity: 0;
-    padding: 0;
-  }
-  to {
-    background: rgba(51, 51, 51, 0.1);
-    opacity: 1;
-    padding: 0 0 65px 0;
-  }
-}
 @keyframes fadeIn {
   from {
     background: rgba(255, 255, 255, 0.1);
