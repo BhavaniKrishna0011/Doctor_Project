@@ -317,7 +317,6 @@ input[type="search"]::-webkit-search-decoration {
 
 .iframe{
     top: auto;
-    right: 150px;
     position: relative;
     border-color: transparent;
     z-index: 1;
@@ -1017,7 +1016,7 @@ label small{
 
 .slider-content{
     position: absolute;
-    top: 20%;
+    top: 10%;
     text-align: center;
     color: #FFF;
     width: 100%;
