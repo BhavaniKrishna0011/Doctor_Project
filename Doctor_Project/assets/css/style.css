@@ -319,6 +319,7 @@ input[type="search"]::-webkit-search-decoration {
     top: auto;
     position: relative;
     border-color: transparent;
+    right: 150px;
     z-index: 1;
 }
 
